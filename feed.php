@@ -6,8 +6,21 @@
     <div data-role="header" data-position="fixed">
     <a data-iconpos="notext" href="#panel" data-role="button" data-icon="flat-menu"></a>
       <h1>Feed</h1>
+
+        <div data-role="navbar">
+          <ul>
+            <li><a href="#">Feed</a></li>
+            <li><a href="#">Grid</a></li>
+          </ul>
+        </div><!-- /navbar -->
       
     </div>
+
+    
+
+    <img src="http://placehold.it/250x300" alt="">
+      
+    
 
 <!--     <div class="home" data-role="content" role="main">
       <div class="ui-input-text ui-shadow-inset ui-corner-all ui-btn-shadow ui-body-c">
@@ -22,4 +35,15 @@
 
 
   </div>
+
+<div data-role="page">
+    <div class="ui-grid-b">
+      <div class="ui-block-a"><a href="../edit-select.php" data-transition="slide"><div class="ui-bar ui-bar-a" style="height:80px; margin:10px;">Seating & Tables</div></a></div>
+       <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:80px; margin:10px;">Food</div></div>
+             <div class="ui-block-a"><a href="../edit-select.php" data-transition="slide"><div class="ui-bar ui-bar-a" style="height:80px; margin:10px;">Seating & Tables</div></a></div>
+       <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:80px; margin:10px;">Food</div></div>
+      
+    </div>
+</div>
+
 <?php include "include/footer.php" ?>

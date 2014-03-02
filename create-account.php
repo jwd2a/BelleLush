@@ -9,12 +9,16 @@
     <h3>What's Your Face Type?</h3>
 
   <div class="ui-grid-b">
-      <div class="ui-block-a"><a href="../edit-select.php" data-transition="slide"><div class="ui-bar ui-bar-a" style="height:120px; margin:10px;">Seating & Tables</div></a></div>
-       <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:120px; margin:10px;">Food</div></div>
-        <div class="ui-block-c"><div class="ui-bar ui-bar-a" style="height:120px; margin:10px;">Beverages</div></div>
-              <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:120px; margin:10px;">Audio / Visual</div></div>
-       <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:120px; margin:10px;">Decorations</div></div>
-        <div class="ui-block-c"><div class="ui-bar ui-bar-a" style="height:120px; margin:10px;">+ Add New</div></div>
+      <div class="ui-block-a"><a href="../edit-select.php" data-transition="slide"><div class="ui-bar ui-bar-a" style="height:80px; margin:10px;">Seating & Tables</div></a></div>
+       <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:80px; margin:10px;">Food</div></div>
+        <div class="ui-block-c"><div class="ui-bar ui-bar-a" style="height:80px; margin:10px;">Beverages</div></div>
+              <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:80px; margin:10px;">Audio / Visual</div></div>
+       <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:80px; margin:10px;">Decorations</div></div>
+        <div class="ui-block-c"><div class="ui-bar ui-bar-a" style="height:80px; margin:10px;">+ Add New</div></div>
+
+              <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:80px; margin:10px;">Audio / Visual</div></div>
+       <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:80px; margin:10px;">Decorations</div></div>
+        <div class="ui-block-c"><div class="ui-bar ui-bar-a" style="height:80px; margin:10px;">+ Add New</div></div>
 
     </div>
 
@@ -31,14 +35,19 @@
 
     <h3>What's Your Face Tone?</h3>
 
-  <div class="ui-grid-b">
-      <div class="ui-block-a"><a href="../edit-select.php" data-transition="slide"><div class="ui-bar ui-bar-a" style="height:120px; margin:10px;">Seating & Tables</div></a></div>
-       <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:120px; margin:10px;">Food</div></div>
-        <div class="ui-block-c"><div class="ui-bar ui-bar-a" style="height:120px; margin:10px;">Beverages</div></div>
-              <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:120px; margin:10px;">Audio / Visual</div></div>
-       <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:120px; margin:10px;">Decorations</div></div>
-        <div class="ui-block-c"><div class="ui-bar ui-bar-a" style="height:120px; margin:10px;">+ Add New</div></div>
+    <!-- <img src="http://placehold.it/300x300" alt=""> -->
 
+  <div class="ui-grid-b">
+      <div class="ui-block-a"><a href="../edit-select.php" data-transition="slide"><div class="ui-bar ui-bar-a" style="height:80px; margin:10px;">Seating & Tables</div></a></div>
+       <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:80px; margin:10px;">Food</div></div>
+        <div class="ui-block-c"><div class="ui-bar ui-bar-a" style="height:80px; margin:10px;">Beverages</div></div>
+              <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:80px; margin:10px;">Audio / Visual</div></div>
+       <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:80px; margin:10px;">Decorations</div></div>
+        <div class="ui-block-c"><div class="ui-bar ui-bar-a" style="height:80px; margin:10px;">+ Add New</div></div>
+
+              <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:80px; margin:10px;">Audio / Visual</div></div>
+       <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:80px; margin:10px;">Decorations</div></div>
+        <div class="ui-block-c"><div class="ui-bar ui-bar-a" style="height:80px; margin:10px;">+ Add New</div></div>
     </div>
 
     <a href="#upload"><button data-theme="b" class="ui-btn-hidden" data-disabled="false">Next &gt;&gt;</button></a>
@@ -54,8 +63,11 @@
 
     <h3>Upload Photo</h3>
 
+    <img src="http://placehold.it/300x350" alt="">
+
 
     <a href="feed.php"><button data-theme="b" class="ui-btn-hidden" data-disabled="false">Upload</button></a>
+    <a href="../dialog/account-created.html"  data-rel="dialog"  data-corners="true" data-theme="c" ><button data-theme="b">Save</button></a>
     
 
   </div>

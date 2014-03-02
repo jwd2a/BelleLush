@@ -276,11 +276,27 @@ and (orientation : portrait) {
 	}
 }
 
-.ui-bar-a { 
+// .ui-footer {
 
-border:none;
+	.ui-bar-a { 
 
-}
+		border:none;
+
+	}
+
+// }
+
+// .ui-header {
+
+// 		.ui-bar-a { 
+
+// 		border:1px solid $dark-blue;
+
+// 	}
+
+// }
+
+
 
 .ui-grid-c {
 	li {
@@ -309,6 +325,19 @@ border:none;
 	}
 
 
+}
+
+.ui-grid-a {
+	
+	border-bottom:1px solid $dark-blue !important;
+
+	li {
+		a {
+			background-color:$white !important;
+			color:$dark-blue;
+
+		}
+	}
 }
 
 /* .ui-btn input, .ui-btn button {

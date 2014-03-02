@@ -146,6 +146,12 @@
 .ui-grid-c li a {
   border: none !important; }
 
+.ui-grid-a {
+  border-bottom: 1px solid #2c3e50 !important; }
+  .ui-grid-a li a {
+    background-color: white !important;
+    color: #2c3e50; }
+
 /* .ui-btn input, .ui-btn button {
 	//@include bellelush-theme;
 	
