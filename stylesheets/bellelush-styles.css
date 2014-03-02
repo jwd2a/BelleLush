@@ -132,6 +132,20 @@
       height: 250px; }
     .item.tall {
       height: 500px; } }
+.ui-bar-a {
+  border: none; }
+
+.ui-grid-c li.ui-block-a a {
+  background-color: #008b8a; }
+.ui-grid-c li.ui-block-b a {
+  background-color: #007c7b; }
+.ui-grid-c li.ui-block-c a {
+  background-color: #006c6c; }
+.ui-grid-c li.ui-block-d a {
+  background-color: #005d5c; }
+.ui-grid-c li a {
+  border: none !important; }
+
 /* .ui-btn input, .ui-btn button {
 	//@include bellelush-theme;
 	

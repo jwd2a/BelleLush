@@ -21,5 +21,9 @@
   
     <a href="../dialog/item-added.html"  data-rel="dialog"  data-corners="true" data-theme="c" ><button data-theme="b">Add Product</button></a>
 
+
+  <?php include "include/menu-footer.php" ?>
+
+
   </div>
 <?php include "include/footer.php" ?>

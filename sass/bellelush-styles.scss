@@ -276,6 +276,41 @@ and (orientation : portrait) {
 	}
 }
 
+.ui-bar-a { 
+
+border:none;
+
+}
+
+.ui-grid-c {
+	li {
+
+	
+		&.ui-block-a a {
+			background-color:$teal;
+		}
+
+		&.ui-block-b a {
+			background-color:darken($teal, 3);
+		}
+
+		&.ui-block-c a {
+			background-color:darken($teal, 6);
+		}
+
+		&.ui-block-d a {
+			background-color:darken($teal, 9);
+		}
+
+		a {
+			border:none !important;
+		}
+
+	}
+
+
+}
+
 /* .ui-btn input, .ui-btn button {
 	//@include bellelush-theme;
 	

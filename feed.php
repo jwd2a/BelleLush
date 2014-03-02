@@ -18,5 +18,8 @@
       <a href="create-account.php"><button data-theme="b" class="ui-btn-hidden" data-disabled="false">Sign Up</button></a>
 
     </div> -->
+  <?php include "include/menu-footer.php" ?>
+
+
   </div>
 <?php include "include/footer.php" ?>
