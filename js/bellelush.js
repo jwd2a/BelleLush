@@ -22,6 +22,7 @@ $(document).ready(function(){
 
 	$("#signupBtn").click(function(e){
 		var mUser = new UserModel({
+			"username": $("#username").val(),
 			"email": $("#email").val(),
 			"password": $("#password").val()
 		});
@@ -29,7 +30,7 @@ $(document).ready(function(){
 		mUser.save(null, {
 			beforeSend: sendAuthentication,
 			success : function(){
-				window.navigate($("#signupBtn").attr("data-target"));	
+				window.location.href = $("#signupBtn").attr("data-target");	
 			},
 			error: function(xhr,status,err){
 				console.log(err);
