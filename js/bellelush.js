@@ -1,7 +1,7 @@
 /* Signup */
+console.log("exec js");
 
 $(document).ready(function(){
-
 	var apiURL = "http://localhost:3000";
 	var idToken = "21jdai1290sdasdfjklf930r2wadsfjl212er903k";
 
@@ -15,9 +15,12 @@ $(document).ready(function(){
 	/* Models */
 
 	var UserModel = Backbone.Model.extend({
-		url: apiURL + "/users",
+		urlRoot: apiURL + "/users",
 		idAttribute: "_id"
 	});
+
+
+	/* Signup Function */
 
 
 	$("#signupBtn").click(function(e){
@@ -30,6 +33,7 @@ $(document).ready(function(){
 		mUser.save(null, {
 			beforeSend: sendAuthentication,
 			success : function(){
+				localStorage.setItem("bl_user", JSON.stringify(mUser));	
 				window.location.href = $("#signupBtn").attr("data-target");	
 			},
 			error: function(xhr,status,err){
@@ -39,4 +43,27 @@ $(document).ready(function(){
 		});
 		e.preventDefault();
 	});
+
+	$("#faceTypes div").click(function(e){
+	
+		var currentUser = new UserModel(JSON.parse(localStorage.getItem("bl_user")));
+
+		var token = btoa(currentUser.get("accessToken")+":X");
+
+		currentUser.save({
+			"faceType": $(e.currentTarget).attr("data-faceTypeId")
+		},{
+			beforeSend: function(xhr){
+				xhr.setRequestHeader("Authorization", "Basic "+ token);
+			},
+			success: function(){
+				//no-op
+			},
+			error: function(){
+				//display error message and disable next button
+				$('a[href="#tone"]').preventDefault();
+			}
+		});
+		
+	});	
 });

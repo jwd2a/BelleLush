@@ -8,10 +8,10 @@
 
     <h3>What's Your Face Type?</h3>
 
-  <div class="ui-grid-b">
-      <div class="ui-block-a"><a href="../edit-select.php" data-transition="slide"><div class="ui-bar ui-bar-a" style="height:80px; margin:10px;"></div></a></div>
-       <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:80px; margin:10px;"></div></div>
-        <div class="ui-block-c"><div class="ui-bar ui-bar-a" style="height:80px; margin:10px;"></div></div>
+  <div id="faceTypes" class="ui-grid-b">
+      <div class="ui-block-a" data-faceTypeId="1"><a href="../edit-select.php" data-transition="slide"><div class="ui-bar ui-bar-a" style="height:80px; margin:10px;"></div></a></div>
+       <div class="ui-block-b" data-faceTypeId="2"><div class="ui-bar ui-bar-a" style="height:80px; margin:10px;"></div></div>
+        <div class="ui-block-c" data-faceTypeId="3"><div class="ui-bar ui-bar-a" style="height:80px; margin:10px;"></div></div>
               <div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:80px; margin:10px;"></div></div>
        <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:80px; margin:10px;"></div></div>
         <div class="ui-block-c"><div class="ui-bar ui-bar-a" style="height:80px; margin:10px;"></div></div>
