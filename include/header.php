@@ -15,6 +15,9 @@
 </head>
   <script src="js/jquery.min.js"></script>
   <script src="js/jquery.mobile-1.3.1.min.js"></script>
+  <script src="js/bower_components/underscore/underscore.js"></script>
+  <script src="js/bower_components/backbone/backbone.js"></script>
+  <script src="js/bellelush.js"></script>
   <link rel="apple-touch-icon" href="./img/saddlebrook/saddlebrook-touch.png"/>
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <link rel="apple-touch-startup-image" href="./img/saddlebrook/saddlebrook-splash.png">
