@@ -19,6 +19,9 @@
     
 
     <img src="http://placehold.it/250x300" alt="">
+    <img src="http://placehold.it/250x300" alt="">
+    <img src="http://placehold.it/250x300" alt="">
+    <img src="http://placehold.it/250x300" alt="">
       
     
 
@@ -53,15 +56,15 @@
 
 
     <div class="ui-grid-b">
-      <div class="ui-block-a"><a href="../edit-select.php" data-transition="slide"><div class="ui-bar ui-bar-a" style="height:80px; margin:10px;">Seating & Tables</div></a></div>
-       <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:80px; margin:10px;">Food</div></div>
-             <div class="ui-block-a"><a href="../edit-select.php" data-transition="slide"><div class="ui-bar ui-bar-a" style="height:80px; margin:10px;">Seating & Tables</div></a></div>
-       <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:80px; margin:10px;">Food</div></div>
+      <div class="ui-block-a"><a href="../edit-select.php" data-transition="slide"><div class="ui-bar ui-bar-a" style="height:80px; margin:10px;"></div></a></div>
+       <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:80px; margin:10px;"></div></div>
+             <div class="ui-block-a"><a href="../edit-select.php" data-transition="slide"><div class="ui-bar ui-bar-a" style="height:80px; margin:10px;"></div></a></div>
+       <div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:80px; margin:10px;"></div></div>
       
     </div>
 
     <?php include "include/menu-footer.php" ?>
-    
+
 </div>
 
 <?php include "include/footer.php" ?>
